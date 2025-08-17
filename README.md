@@ -2,7 +2,6 @@
 
 ## Project Layout
 
-submit/
 ├─ time_splits/                  # Raw ADS-B data, split hourly (hour_07_data.csv ...)
 ├─ all_aircraft_db.csv           # ICAO24 reference database
 ├─ jet_only_aircraft_opensky.csv # Commercial jet whitelist
