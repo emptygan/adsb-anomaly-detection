@@ -3,23 +3,41 @@
 ## Project Layout
 
 ├─ time_splits/                  # Raw ADS-B data, split hourly (hour_07_data.csv ...)
+
 ├─ all_aircraft_db.csv           # ICAO24 reference database
+
 ├─ jet_only_aircraft_opensky.csv # Commercial jet whitelist
+
 ├─ consolidated_flight_data.csv  # Cleaned & merged dataset
+
 ├─ flight_summary.csv            # Extracted flight features
+
 ├─ flight_summary_with_iso.csv   # Isolation Forest + Kneedle results
+
 ├─ flight_summary_kmeans.csv     # PCA + KMeans clustering results
+
 ├─ final_consensus_anomalies.csv # Consolidated anomaly results
+
 │
+
 ├─ aircraft_filter.py
+
 ├─ merge_icao24_db.py
+
 ├─ flight_summary_generator.py
+
 ├─ z_score.py
+
 ├─ iso_kneed.py
+
 ├─ k_means.py
+
 ├─ flight_path.py
+
 ├─ merge.py
+
 ├─ vis.py / vis_pro.py / cluster_and_plot.py
+
 └─ run_all_detection.py          # Suppose to run all steps in sequence, might not work
 
 
